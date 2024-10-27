@@ -1,12 +1,12 @@
 import pandas as pd
 import numpy as np
 import os
-from keras.models import Sequential, load_model
-from keras.layers import Dense, LSTM, Activation
-from keras import backend as K
-from keras.utils.generic_utils import get_custom_objects
-from keras.callbacks import ModelCheckpoint
-from keras.regularizers import l1_l2
+from tensorflow.keras.models import Sequential, load_model
+from tensorflow.keras.layers import Dense, LSTM, Activation
+from tensorflow.keras import backend as K
+from tensorflow.keras.utils.generic_utils import get_custom_objects
+from tensorflow.keras.callbacks import ModelCheckpoint
+from tensorflow.keras.regularizers import l1_l2
 
 
 # Train - Dev - Test Generation
